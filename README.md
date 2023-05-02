@@ -2,9 +2,7 @@
 
 Using github actions to automate generating images related to limericks.
 
-## Qualities of an image
-I need to define qualities of an image that can make up the "genetics" of an image.
+## "Genetics" of an image
+I'll use the jpeg idea of the 2D discrete cosine transformations of the luminance, red crominance, and blue crominance.
 
-Stuff like lines (horizontal, vertical, etc.), colours, brightness, contrast, shape related things.
-
-Perhaps create the image by composing shapes with various transformations applied.
+Set the images to be 1024*1024, so the genetic sequence is three lots of 16 DCT basis functions.
